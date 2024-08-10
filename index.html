@@ -2,42 +2,73 @@
 <html lang="esp">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
     <title>Carolina Zárate Infante</title>
     <link rel="stylesheet" href="style.css" />
+    <script async src="script.js"></script>
   </head>
-
   <body>
     <main>
-
       <section>
         <div class="section-heading">
-          <img class="section-heading-logo" src="assests/img/Logo@2x.png" alt="Logo" />
+          <img
+            class="section-heading-logo"
+            src="/assests/img/logoalura.png"
+            alt="Logo"
+          />
         </div>
         <div class="section-content">
-          <p class="section-content-text">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas
-          </p>
+          <textarea
+            value=""
+            id="text-input"
+            name="code"
+            id="input-text"
+            rows="3"
+            cols="20"
+            class="textarea"
+            placeholder="Ingresa aquí el texto"
+          ></textarea>
         </div>
         <div class="section-footer">
-          <div class="section-footer-message">
-            <img class="section-footer-message-icon" src="assests/img/alert-icon.png" alt="icon">
-            <p class="section-footer-message-text">Solo letras minúsculas y sin acentos</p>
+          <div class="section-footer-message d-none" id="message-error">
+            <img
+              class="section-footer-message-icon"
+              src="/assests/img/alert-icon.png"
+              alt="icon"
+            />
+            <p class="section-footer-message-text">
+              Solo letras minúsculas y sin acentos
+            </p>
           </div>
           <div class="section-footer-actions">
-            <button class="btn btn-primary">Encriptar</button>
-            <button class="btn btn-secondary">Desencriptar</button>
+            <button class="btn btn-primary" id="btn-encript">Encriptar</button>
+            <button class="btn btn-secondary" id="btn-decrypt">
+              Desencriptar
+            </button>
           </div>
         </div>
-    </section>
-
-    <aside>
-      <div class="aside-wrapper">
-        <img src="assests/img/muneco.png" alt="muneco">
-        <h1>Ningún mensaje fue encontrado</h1>
-        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-      </div>
-  </aside>
-
+      </section>
+      <aside>
+        <div class="aside-wrapper">
+          <div class="result-ok d-none" id="result-ok">
+            <div class="result-content" id="result-message">error</div>
+            <div class="result-cta">
+              <button class="btn btn-white" type="button" id="copy-text">
+                Copiar
+              </button>
+            </div>
+          </div>
+          <div class="result-error d-none" id="result-error">
+            <img src="/assests/img/muneco.png" alt="muneco" />
+            <h1>Ningún mensaje fue encontrado</h1>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+          </div>
+        </div>
+      </aside>
     </main>
+    <footer>Carolina Zárate Infante - 2024</footer>
   </body>
 </html>
