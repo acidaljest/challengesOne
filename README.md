@@ -2,6 +2,10 @@
 
 # Encriptador y Desencriptador de Textos
 
+<p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p>
+
 ## Índice
 
 1. [Descripción del Proyecto](#descripción-del-proyecto)
