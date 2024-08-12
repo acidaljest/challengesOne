@@ -6,6 +6,8 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
+
+
 ## Índice
 
 1. [Descripción del Proyecto](#descripción-del-proyecto)
@@ -22,7 +24,7 @@
 
 Este proyecto es un **encriptador y desencriptador de textos** desarrollado como parte de un challenge propuesto por Oracle en un bootcamp de desarrollo web. El objetivo de este proyecto es permitir a los usuarios encriptar y desencriptar mensajes de manera sencilla, utilizando un conjunto de reglas predefinidas. El desarrollo se realizó utilizando tecnologías web estándar (HTML, CSS, y JavaScript) y se ajusta al diseño provisto en Figma.
 
-Este proyecto es parte de mi formación en frontend, y fue desarrollado siguiendo las buenas prácticas y lo aprendido en las clases del bootcamp.
+Este proyecto es parte de mi formación en frontend, y fue desarrollado siguiendo las buenas prácticas y lo aprendido en las clases del bootcamp de Alura Latam.
 
 ![Captura del Proyecto](https://acidaljest.github.io/challengesOne/assests/img/logoalura.png)
 
@@ -57,8 +59,9 @@ La estructura y estilos se realizaron acorde a lo aprendido en las clases del bo
 
 ## Referencias
 
-- **Bootcamp de Desarrollo Web**: [Oracle Next Education](https://www.oracle.com/education/)
+- **Bootcamp de Desarrollo Web**: [Alura Latam Bootcamp](https://app.aluracursos.com/dashboard)
 - **Figma Design**: [Alura Challenge Figma](https://www.figma.com/design/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0-1&t=dDFvcPOBVyQxwabm-0)
+- 
 
 ## Autor
 
